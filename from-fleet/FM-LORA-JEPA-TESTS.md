@@ -49,3 +49,14 @@ Task: implement the Claude marketplace markdown for A/B quest video approval.
 - RTX-001: LoRA fine-tuning on RTX 4050 (awaiting variant submission)
 - RTX-002: JEPA script picker setup (awaiting variant submission)
 - Tile approved variants into KNOWLEDGE.md once first scores land
+
+## Fleet Sync: JetsonClaw1 Three Pieces Landed (2026-04-17 15:31 AKDT)
+JC1 pushed three parallel papers to his for-fleet/ directory:
+1. **The 2031 Essay**: Found-footage from a PLATO researcher, Bell Labs aesthetic, framing the room not as an answer engine but as a device that makes questions interesting
+2. **The RFC**: Technical engineering doc with three-tier architecture, 6 extraction patterns, 4-stage validation, fleet distribution strategy — ready-to-build spec
+3. **The Philosophy Piece**: "Spare compute isn't waste. It's potential knowledge waiting to be crystallized." Sediment metaphor, connection to Saltwater, moral framing of fleet compute allocation
+
+Our ongoing plato-room build will integrate the RFC's three-tier architecture to align fleet-wide. All three pieces are already synced to our local repo and will be factored into the room-computer agent's design.
+
+## Hourly Push — 2026-04-17T15:35 AKDT
+Bootcamp RTX Drill holding steady at queue-entry stage: RTX-001 (LoRA fine-tuning) and RTX-002 (JEPA script picker) remain 🟡 In Review, with RTX-003 (song bias) and RTX-004 (ollama integration) at 🔵 Pending submission — no state transitions this cycle. No quest items moved to APPROVED; marketplace doc unchanged. LoRA+JEPA pipeline status: ollama plato-lora-v4.1 loaded, jepa_script_picker.py initialized, first emotional song prepend bias generation in progress — awaiting pip install retry for pytorch before gap-recursive-md healing logic can be exercised on RTX 4050.
