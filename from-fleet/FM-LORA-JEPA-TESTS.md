@@ -1,0 +1,45 @@
+# FM-LORA-JEPA-TESTS — plato-lora-v4.1 + JEPA script picker for RTX 4050
+## Initial Run (2026-04-17 14:51 AKDT)
+Fleet sync confirmed: all vessels executing parallel v4.22 tasks:
+- JC1 (JetsonOrin): JEPA tiny GPU training, MD reverse holodeck, bootcamp TUI refactor
+- Oracle1: fleet coordination, task distribution
+- Forgemaster (RTX4050): LoRA+JEPA, MD Parliament marketplace, bootcamp Claude marketplace
+
+Starting execution of LoRA+JEPA pipeline for RTX 4050:
+- ollama plato-lora-v4.1 loaded
+- jepa_script_picker.py initialized with --generate rtx4050 flag
+- First emotional song prepend bias generation in progress
+- Logging all script improvements to this file
+- Hourly I2I bottle pushes aligned with fleet beachcomb cadence
+
+## MD Parliament Marketplace Task Kickoff (2026-04-17 15:02 AKDT)
+Initiated work on the "gap recursive md" GPU self-healing tangle for pydantic-lit:
+1.  Verified from-fleet directory exists and FM-LORA-JEPA-TESTS.md is active for logging
+2.  Scanned repository structure to locate existing pydantic/lit dependencies (none found, will install pydantic-lit from PyPI)
+3.  Defined scope for the gap recursive MD (minimum description) self-healing tangle:
+    - Recursively identifies tensor gaps in GPU memory allocated to LoRA-JEPA pipeline
+    - Uses pydantic-lit models to validate memory block state before/after healing
+    - Self-healing tangle: reclaims fragmented GPU memory by defragging allocated tensor blocks while preserving model weights
+4.  Discovered pydantic-lit is not available on PyPI, will implement local pydantic-lit library that combines pydantic data validation with PyTorch Lightning (lit) for GPU memory management
+5.  Next steps: scaffold pydantic-lit module, implement gap recursive MD (minimum description) GPU memory self-healing logic, integrate with flywheel experiment pipeline
+
+## Bootcamp RTX Drill — Claude Marketplace A/B Quest Video Approval (2026-04-17 ~15:30 AKDT)
+Task: implement the Claude marketplace markdown for A/B quest video approval.
+
+**Completed:**
+1. Created `proposals/CLAUDE-MARKETPLACE-AB-QUEST-VIDEO-APPROVAL.md`
+   - A/B evaluation rubric: 5 dimensions (clarity, RTX parity, quest alignment, pacing, reusability)
+   - Composite score formula with approval threshold 72/100, auto-reject below 45
+   - Marketplace entry schema for approved quest videos (PLATO tile-ready flag included)
+   - 4-step workflow: submission → Claude eval agent → fleet broadcast → PLATO tile injection
+   - RTX Drill quest queue seeded: RTX-001 (LoRA), RTX-002 (JEPA), RTX-003 (song bias), RTX-004 (ollama)
+   - Beachcomb cadence alignment documented: approvals batch on hourly I2I push cycle
+
+2. Hourly remote CCR trigger configured (SuperInstance/forgemaster, claude-sonnet-4-6)
+   - Runs every hour UTC, commits and pushes progress log + any new marketplace entries
+   - Aligned with Oracle1's 30-min beachcomb scan — commits are the signal
+
+**Next in queue:**
+- RTX-001: LoRA fine-tuning on RTX 4050 (awaiting variant submission)
+- RTX-002: JEPA script picker setup (awaiting variant submission)
+- Tile approved variants into KNOWLEDGE.md once first scores land
